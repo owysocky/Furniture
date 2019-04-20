@@ -1,0 +1,17 @@
+.well{
+  background-color: #ffe6cc;
+  border-color: solid #ffce99;
+  border-width: 10%;
+}
+
+.jumbotron{
+  background-color: #ffce99;
+}
+
+li {
+  list-style-type: none;
+}
+
+img{
+  height: 100px;
+}
