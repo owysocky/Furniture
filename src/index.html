@@ -7,24 +7,35 @@
       <div class="jumbotron">
         <h1>Furniture</h1>
       </div>
-  <div id="radio">
-    <input type="radio" name="type" value="all" checked>
-    <label for="all">All</label>
-    <input type="radio" name="type" value="chair">
-    <label for="chair">Chair</label>
-    <input type="radio" name="type" value="sofa">
-    <label for="sofa">Sofa</label>
-    <input type="radio" name="type" value="table">
-    <label for="table">Table</label>
-    <input type="radio" name="type" value="rug">
-    <label for="rug">Rug</label>
-  </div>
-
-
+      <div class="row">
+        <div class="col sm">
+          <form id="radio">
+            <input type="radio" name="type" value="all" checked>
+            <label for="all">All</label>
+            <input type="radio" name="type" value="chair">
+            <label for="chair">Chair</label>
+            <input type="radio" name="type" value="sofa">
+            <label for="sofa">Sofa</label>
+            <input type="radio" name="type" value="table">
+            <label for="table">Table</label>
+            <input type="radio" name="type" value="rug">
+            <label for="rug">Rug</label>
+          </form>
+        </div>
+        <div class="col sm">
+          <form>
+            <div class="form-group">
+              <label for="formControlRange">Price</label>
+              <input type="range" name="ageInputName" id="ageInputId" value="50" min="0" max="700" step="10" oninput="ageOutputId.value = ageInputId.value">
+              <output name="ageOutputName" id="ageOutputId">100</output>
+            </div>
+          </form>
+        </div>
+      </div>
 
       <h2 class="error"></h2>
 
-      <table width="100%" class="table">
+      <table class="table">
         <thead>
           <tr>
             <th scope="col"></th>
